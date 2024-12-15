@@ -27,6 +27,9 @@ COPY . .
 
 RUN pnpm install
 
+# Add this line to install jsonwebtoken
+RUN npm install jsonwebtoken
+
 RUN pnpm build
 
 EXPOSE 3000
