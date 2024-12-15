@@ -4,6 +4,7 @@
     "private": true,
     "homepage": "https://flowiseai.com",
     "dependencies": {
+        "@flowiseai/nodevm": "^3.9.25",
         "jsonwebtoken": "^9.0.0",
         "node-fetch": "^2.6.9"
     },
